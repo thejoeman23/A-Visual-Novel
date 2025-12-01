@@ -2,5 +2,5 @@ using UnityEngine;
 
 public class UIManager : Singleton<UIManager>
 {
-    public UISettings settings;
+    public UISettings Settings;
 }

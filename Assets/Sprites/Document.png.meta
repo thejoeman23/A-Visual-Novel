@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -131,12 +131,12 @@ TextureImporter:
       name: Document_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3740
-        width: 1249
-        height: 1221
+        x: 98
+        y: 3986
+        width: 1003
+        height: 871
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: Document_1
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 2675
-        width: 1086
-        height: 1122
+        x: 1353
+        y: 3918
+        width: 1005
+        height: 911
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: Document_2
       rect:
         serializedVersion: 2
-        x: 2296
-        y: 3669
-        width: 1212
-        height: 1292
+        x: 2560
+        y: 3955
+        width: 874
+        height: 799
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: Document_3
       rect:
         serializedVersion: 2
-        x: 1278
-        y: 1530
-        width: 1053
-        height: 1057
+        x: 125
+        y: 2681
+        width: 957
+        height: 997
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: Document_4
       rect:
         serializedVersion: 2
-        x: 39
-        y: 105
-        width: 1258
-        height: 1284
+        x: 1297
+        y: 2729
+        width: 945
+        height: 937
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: Document_5
       rect:
         serializedVersion: 2
-        x: 2361
-        y: 74
-        width: 1147
-        height: 1305
+        x: 2510
+        y: 2707
+        width: 973
+        height: 942
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,11 +259,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Document_6
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1566
+        width: 921
+        height: 918
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b101f3018763f431fb03c1133eddacb3
+      internalID: -1828829289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Document_7
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1421
+        width: 1020
+        height: 1058
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f55b1faf581e4216b5b5d51bc95ff2d
+      internalID: -671257730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Document_8
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 1418
+        width: 995
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851fd151b15e640238e198a805a460ca
+      internalID: -1607382172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c7083f5c6ceac4359851303716b8adde
     internalID: 0
     vertices: []
     indices: 
@@ -271,7 +337,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Document_0: 7602970641636741391
       Document_1: -5962511024566458578
@@ -279,6 +347,9 @@ TextureImporter:
       Document_3: -1115678151007288066
       Document_4: -2830665437985335635
       Document_5: 4314399971754880887
+      Document_6: -1828829289
+      Document_7: -671257730
+      Document_8: -1607382172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
