@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -66,9 +67,12 @@ public class SpriteJitter : MonoBehaviour
     private IEnumerator Jitter()
     {
         int index = 1;
+        bool countUp = true;
 
         while (true)
         {
+            UpdateCountDirection(ref countUp, index);
+            
             // Delay
             float delay = 1 / Mathf.Max(1, UIManager.Instance.Settings.FrameRate);
             yield return new WaitForSeconds(delay);
@@ -82,11 +86,18 @@ public class SpriteJitter : MonoBehaviour
 
             // Set sprite
             _image.sprite = _sprites[index];
-            
-            // Increase Index
-            index++;
-            if (index >= _sprites.Count)
-                index = 0;
+
+            // Progress
+            if (countUp) index++;
+            else index--;
         }
+    }
+
+    private void UpdateCountDirection(ref bool countUp, int index)
+    {
+        if (index + 1 == _sprites.Count)
+            countUp = false;
+        else if (index == 0)
+            countUp = true;
     }
 }
