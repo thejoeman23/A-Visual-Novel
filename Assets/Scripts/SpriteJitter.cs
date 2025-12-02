@@ -1,19 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [ExecuteAlways]
-[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Image))]
 public class SpriteJitter : MonoBehaviour
 {
     [SerializeField] private Texture2D texture;
-    
-    private SpriteRenderer _spriteRenderer;
+
+    private Image _image;
     private List<Sprite> _sprites;
 
-    private void Awake()
+    private void Start()
     {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _image = GetComponent<Image>();
 
         GetSprites();
         
@@ -46,7 +47,7 @@ public class SpriteJitter : MonoBehaviour
         }
         
         // Saves time of having to set it ourselves in the inspector
-        _spriteRenderer.sprite = _sprites[0];
+        _image.sprite = _sprites[0];
     }
 
     private void StartJitter()
@@ -80,7 +81,7 @@ public class SpriteJitter : MonoBehaviour
             }
 
             // Set sprite
-            _spriteRenderer.sprite = _sprites[index];
+            _image.sprite = _sprites[index];
             
             // Increase Index
             index++;
