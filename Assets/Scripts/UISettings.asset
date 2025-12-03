@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 880b2ea80172142aa9ee49e71b3a3481, type: 3}
   m_Name: UISettings
   m_EditorClassIdentifier: Assembly-CSharp::UISettings
-  FrameRate: 1
+  FrameRate: 3
   LineWidth: 5
