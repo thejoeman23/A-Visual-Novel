@@ -1,0 +1,538 @@
+fileFormatVersion: 2
+guid: 4e33e43944c584a54a3fe5a321913422
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4274550931775806401
+    second: Text Bubbles_0
+  - first:
+      213: -3206988815017732550
+    second: Text Bubbles_1
+  - first:
+      213: -1701419638096755176
+    second: Text Bubbles_2
+  - first:
+      213: -4588961433330455875
+    second: Text Bubbles_3
+  - first:
+      213: 2677382607264357970
+    second: Text Bubbles_4
+  - first:
+      213: -2453689962512800051
+    second: Text Bubbles_5
+  - first:
+      213: -585613816005936432
+    second: Text Bubbles_6
+  - first:
+      213: 7743708057617715224
+    second: Text Bubbles_7
+  - first:
+      213: 4573691702090290779
+    second: Text Bubbles_8
+  - first:
+      213: -6833500416203157294
+    second: Text Bubbles_9
+  - first:
+      213: 2653301048978808563
+    second: Text Bubbles_10
+  - first:
+      213: 3109831533323797430
+    second: Text Bubbles_11
+  - first:
+      213: 5659422560113552918
+    second: Text Bubbles_12
+  - first:
+      213: 3313576083376946738
+    second: Text Bubbles_13
+  - first:
+      213: -4749169868781116103
+    second: Text Bubbles_14
+  - first:
+      213: -5075723839320194413
+    second: Text Bubbles_15
+  - first:
+      213: -6857492116741532716
+    second: Text Bubbles_16
+  - first:
+      213: -2099395721247698739
+    second: Text Bubbles_17
+  - first:
+      213: 1515146456266161981
+    second: Text Bubbles_18
+  - first:
+      213: -1730585514199184116
+    second: Text Bubbles_19
+  - first:
+      213: -5136545372052355924
+    second: Text Bubbles_20
+  - first:
+      213: -3223893357028796037
+    second: Text Bubbles_21
+  - first:
+      213: -419329294073810208
+    second: Text Bubbles_22
+  - first:
+      213: 9183039654094982460
+    second: Text Bubbles_23
+  - first:
+      213: -478641368271635022
+    second: Text Bubbles_24
+  - first:
+      213: 4224850121247005192
+    second: Text Bubbles_25
+  - first:
+      213: -6394281762611366337
+    second: Text Bubbles_26
+  - first:
+      213: -2023005650268922907
+    second: Text Bubbles_27
+  - first:
+      213: 1331853563424467336
+    second: Text Bubbles_28
+  - first:
+      213: -1340891026557606207
+    second: Text Bubbles_29
+  - first:
+      213: 1009744559447870790
+    second: Text Bubbles_30
+  - first:
+      213: 974676294588312350
+    second: Text Bubbles_31
+  - first:
+      213: 4214940581969044422
+    second: Text Bubbles_32
+  - first:
+      213: 5207183257022608530
+    second: Text Bubbles_33
+  - first:
+      213: 616759878100870317
+    second: Text Bubbles_34
+  - first:
+      213: -7354015534920322993
+    second: Text Bubbles_35
+  - first:
+      213: 6951683093131616013
+    second: Text Bubbles_36
+  - first:
+      213: 3473178706115619674
+    second: Text Bubbles_37
+  - first:
+      213: 2795476362344902589
+    second: Text Bubbles_38
+  - first:
+      213: -2166226305839630060
+    second: Text Bubbles_39
+  - first:
+      213: 8722394341165367696
+    second: Text Bubbles_40
+  - first:
+      213: -8191804722657817841
+    second: Text Bubbles_41
+  - first:
+      213: -3980247724518568487
+    second: Text Bubbles_42
+  - first:
+      213: -6977270012956094714
+    second: Text Bubbles_43
+  - first:
+      213: -3622629639756293986
+    second: Text Bubbles_44
+  - first:
+      213: 1449174765440698180
+    second: Text Bubbles_45
+  - first:
+      213: -5125997849029206972
+    second: Text Bubbles_46
+  - first:
+      213: -941257085485372222
+    second: Text Bubbles_47
+  - first:
+      213: 3339958299556967812
+    second: Text Bubbles_48
+  - first:
+      213: 7820625174475538987
+    second: Text Bubbles_49
+  - first:
+      213: 3796465238060458467
+    second: Text Bubbles_50
+  - first:
+      213: 2121063393327980044
+    second: Text Bubbles_51
+  - first:
+      213: 7585423111600313796
+    second: Text Bubbles_52
+  - first:
+      213: -3888807642019383430
+    second: Text Bubbles_53
+  - first:
+      213: -7587990088637119700
+    second: Text Bubbles_54
+  - first:
+      213: 3788788416747110795
+    second: Text Bubbles_55
+  - first:
+      213: 7296213393960644067
+    second: Text Bubbles_56
+  - first:
+      213: -3422258699321376163
+    second: Text Bubbles_57
+  - first:
+      213: -7474948145277614193
+    second: Text Bubbles_58
+  - first:
+      213: -5161589402418336794
+    second: Text Bubbles_59
+  - first:
+      213: 5074760480621094808
+    second: Text Bubbles_60
+  - first:
+      213: 5833611548696183313
+    second: Text Bubbles_61
+  - first:
+      213: -7935832610846333148
+    second: Text Bubbles_62
+  - first:
+      213: 648139954684177347
+    second: Text Bubbles_63
+  - first:
+      213: -4140377362709402317
+    second: Text Bubbles_64
+  - first:
+      213: 3547082713838833447
+    second: Text Bubbles_65
+  - first:
+      213: 6004046272752283047
+    second: Text Bubbles_66
+  - first:
+      213: -1617233143556808798
+    second: Text Bubbles_67
+  - first:
+      213: -7284966567995249399
+    second: Text Bubbles_68
+  - first:
+      213: 455469438716855163
+    second: Text Bubbles_69
+  - first:
+      213: 2271108628124374541
+    second: Text Bubbles_70
+  - first:
+      213: 1279662996369694368
+    second: Text Bubbles_71
+  - first:
+      213: -7808111790443068205
+    second: Text Bubbles_72
+  - first:
+      213: -8305211214205984227
+    second: Text Bubbles_73
+  - first:
+      213: -4130199721304307630
+    second: Text Bubbles_74
+  - first:
+      213: 6453325440675381456
+    second: Text Bubbles_75
+  - first:
+      213: 3616132362609147643
+    second: Text Bubbles_76
+  - first:
+      213: 6645621558664115029
+    second: Text Bubbles_77
+  - first:
+      213: -7262384916092998628
+    second: Text Bubbles_78
+  - first:
+      213: -5178390820742516026
+    second: Text Bubbles_79
+  - first:
+      213: -1805368560857249276
+    second: Text Bubbles_80
+  - first:
+      213: 1251535844535057297
+    second: Text Bubbles_81
+  - first:
+      213: -4243612746266201702
+    second: Text Bubbles_82
+  - first:
+      213: -1670434176840211663
+    second: Text Bubbles_83
+  - first:
+      213: -6720400529269573377
+    second: Text Bubbles_84
+  - first:
+      213: 5274217946710859726
+    second: Text Bubbles_85
+  - first:
+      213: 3179395922599849777
+    second: Text Bubbles_86
+  - first:
+      213: -7297988010343539794
+    second: Text Bubbles_87
+  - first:
+      213: -7868327552832708279
+    second: Text Bubbles_88
+  - first:
+      213: 2730403159783629367
+    second: Text Bubbles_89
+  - first:
+      213: 4474056697647844465
+    second: Text Bubbles_90
+  - first:
+      213: 6683106478807702
+    second: Text Bubbles_91
+  - first:
+      213: 1883643495751389823
+    second: Text Bubbles_92
+  - first:
+      213: 8089033450977035758
+    second: Text Bubbles_93
+  - first:
+      213: 7063495360637644218
+    second: Text Bubbles_94
+  - first:
+      213: -5008774210201176978
+    second: Text Bubbles_95
+  - first:
+      213: 7371607051239157951
+    second: Text Bubbles_96
+  - first:
+      213: 4923992795216974856
+    second: Text Bubbles_97
+  - first:
+      213: -8612124918159560997
+    second: Text Bubbles_98
+  - first:
+      213: 7988686886373419347
+    second: Text Bubbles_99
+  - first:
+      213: -2755668087852797676
+    second: Text Bubbles_100
+  - first:
+      213: -3480542933290742542
+    second: Text Bubbles_101
+  - first:
+      213: -5106737210297803256
+    second: Text Bubbles_102
+  - first:
+      213: 8127832573217573408
+    second: Text Bubbles_103
+  - first:
+      213: 5009281495387131020
+    second: Text Bubbles_104
+  - first:
+      213: 2423508031842211254
+    second: Text Bubbles_105
+  - first:
+      213: 5225793146012002761
+    second: Text Bubbles_106
+  - first:
+      213: 2248156002892354314
+    second: Text Bubbles_107
+  - first:
+      213: -282783481757593352
+    second: Text Bubbles_108
+  - first:
+      213: 609683751517075838
+    second: Text Bubbles_109
+  - first:
+      213: -2732980973043805404
+    second: Text Bubbles_110
+  - first:
+      213: -8883765209989271338
+    second: Text Bubbles_111
+  - first:
+      213: -2843531239999234494
+    second: Text Bubbles_112
+  - first:
+      213: -4160708675611838375
+    second: Text Bubbles_113
+  - first:
+      213: 7112255762699223233
+    second: Text Bubbles_114
+  - first:
+      213: 4130894085151579981
+    second: Text Bubbles_115
+  - first:
+      213: -3187900710611866873
+    second: Text Bubbles_116
+  - first:
+      213: -8473159178265542005
+    second: Text Bubbles_117
+  - first:
+      213: -2484505143068093255
+    second: Text Bubbles_118
+  - first:
+      213: -7905876718441124145
+    second: Text Bubbles_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Text Bubbles_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1039
+        width: 1041
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f342039339ebda4c0800000000000000
+      internalID: -4274550931775806401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text Bubbles_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1
+        width: 1141
+        height: 999
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3697320aac7e73d0800000000000000
+      internalID: -3206988815017732550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8e92304374efa410c9bded1be53dac84
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1500.0,"y":1000.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Text Bubbles_0: -4274550931775806401
+      Text Bubbles_1: -3206988815017732550
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
