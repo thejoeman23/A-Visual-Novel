@@ -5,69 +5,71 @@ using UnityEngine;
 public class BubbleManager : MonoBehaviour
 {
     [Tooltip("The the panel that contains the text bubble options.")]
-    [SerializeField] private GameObject OptionBubblePanel;
-    [SerializeField] private GameObject DraggableBubblePrefab;
+    [SerializeField] private GameObject optionBubblePanel;
+    [SerializeField] private GameObject optionBubblePrefab;
     
-    private List<BubbleHolder> _bubbleHolders;
-    private BubbleHolder _activeBubbleHolder;
+    private List<BubbleSlot> _bubbleSlots;
+    private BubbleSlot _activeBubbleSlot;
 
     private void Start()
     {
         UpdateBubbeHolders();
-        
     }
 
     private void SpawnOptionBubbles()
     {
-        if (_activeBubbleHolder == null)
+        if (_activeBubbleSlot == null)
         {
             Debug.LogError("No active bubble holder found");
             return;
         }
 
-        if (OptionBubblePanel == null || DraggableBubblePrefab == null)
+        if (optionBubblePanel == null || optionBubblePrefab == null)
         {
             Debug.LogError("Mandatory references not set.");
             return;
         }
+        
+        ClearOptionBubbles();
 
-        foreach (var option in _activeBubbleHolder.GetPossibleBubbles())
+        foreach (var option in _activeBubbleSlot.GetPossibleBubbles())
         {
             SpawnBubble(option);
         }
     }
 
-    private void SpawnBubble(OptionBubble data)
+    private void SpawnBubble(OptionData data)
     {
-        GameObject obj = Instantiate(DraggableBubblePrefab, OptionBubblePanel.transform);
-        TextMeshProUGUI textObj = obj.GetComponentInChildren<TextMeshProUGUI>();
-        textObj.text = data.text;
+        DraggableBubble bubble = Instantiate(optionBubblePrefab, optionBubblePanel.transform).GetComponent<DraggableBubble>();
+        bubble.SetUp(data);
+        bubble.TweenIn();
     }
 
     private void ClearOptionBubbles()
     {
-        if (OptionBubblePanel == null)
+        if (optionBubblePanel == null)
         {
             Debug.LogError("Missing reference to OptionBubblePanel.");
             return;
         }
 
-        foreach (var DraggableBubble in )
+        foreach (var bubble in optionBubblePanel.GetComponentsInChildren<DraggableBubble>())
         {
-            
+            bubble.TweenOut();
         }
     }
     
     private void UpdateBubbeHolders()
     {
-        _bubbleHolders = new List<BubbleHolder>
-            (FindObjectsByType<BubbleHolder>(FindObjectsSortMode.InstanceID));
+        _bubbleSlots = new List<BubbleSlot>
+            (FindObjectsByType<BubbleSlot>(FindObjectsSortMode.InstanceID));
 
-        foreach (BubbleHolder bubbleHolder in _bubbleHolders)
+        foreach (BubbleSlot bubbleHolder in _bubbleSlots)
         {
-            if (bubbleHolder.CurrentBubble == null)
+            // If the slot is empty, then set it as the one that is active, since the other one's are filled and cant be changed (inavtive)
+            if (bubbleHolder.Content == null)
             {
-                _activeBubbleHolder = bubbleHolder;
+                _activeBubbleSlot = bubbleHolder;
                 break;
             }
         }

@@ -1,15 +1,13 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-public class BubbleHolder : MonoBehaviour
+public class BubbleSlot : MonoBehaviour
 {
     // The bubble currently inside this {holder. Null is default (empty).
-    [SerializeField] private OptionBubble currentBubble = null;
+    [SerializeField] private DraggableBubble content = null;
 
     // List of possible bubbles that could be placed in this holder.
-    [SerializeField] private List<OptionBubble> possibleBubbles = new List<OptionBubble>();
+    [SerializeField] private List<OptionData> possibleBubbles = new List<OptionData>();
 
     private Vector2 _startingSize;
     private RectTransform _rect;
@@ -26,11 +24,11 @@ public class BubbleHolder : MonoBehaviour
         return;
     }
     
-    public List<OptionBubble> GetPossibleBubbles() => possibleBubbles;
+    public List<OptionData> GetPossibleBubbles() => possibleBubbles;
 
-    public OptionBubble CurrentBubble
+    public DraggableBubble Content
     {
-        get => currentBubble;
-        set => currentBubble = value;
+        get => content;
+        set => content = value;
     }
 }
