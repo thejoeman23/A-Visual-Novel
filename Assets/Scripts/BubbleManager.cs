@@ -40,18 +40,20 @@ public class BubbleManager : Singleton<BubbleManager>
 
     private void OnActiveBubbleSlotChanged()
     {
+        if (MissingReferences())
+            return;
+        
         ClearOldOptionBubbles();
         
-        if (_activeBubbleSlot != null)
+        if (_activeBubbleSlot != null) // If its not null, spawn the bubbles
             SpawnNewOptionBubbles();
         else
-            Debug.LogError("No active bubble holder found");
+            UIManager.Instance.DisableOptionPanel(); // If it is null, hide option panel
     }
 
     private void SpawnNewOptionBubbles()
     {
-        if (MissingReferences())
-            return;
+        UIManager.Instance.EnableOptionPanel(); // Just to be sure
         
         foreach (var option in _activeBubbleSlot.GetOptions())
         {
