@@ -18,13 +18,19 @@ public class BubbleSlot : MonoBehaviour
         _startingSize = _rect.localScale;
     }
 
+    public void Fill(DraggableBubble buble)
+    {
+        content = buble;
+        UIManager.Instance.DrawPanel(content.Data);
+    }
+
     public void MatchSize()
     {
         Debug.Log("Not implemented yet");
         return;
     }
     
-    public List<OptionData> GetPossibleBubbles() => possibleBubbles;
+    public List<OptionData> GetOptions() => possibleBubbles;
 
     public DraggableBubble Content
     {
