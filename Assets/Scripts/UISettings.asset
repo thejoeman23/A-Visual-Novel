@@ -14,3 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UISettings
   FrameRate: 3
   LineWidth: 5
+  tweenInTime: 0
+  tweenInEase: 0
+  tweenOutTime: 0
+  tweenOutEase: 0
+  followLerpSpeed: 25
