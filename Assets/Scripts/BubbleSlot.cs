@@ -21,7 +21,7 @@ public class BubbleSlot : MonoBehaviour
     public void Fill(DraggableBubble buble)
     {
         content = buble;
-        UIManager.Instance.DrawPanel(content.Data);
+        UIManager.Instance.DrawPanel(content.data);
     }
 
     public void MatchSize()

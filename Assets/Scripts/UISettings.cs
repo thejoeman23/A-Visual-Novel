@@ -26,4 +26,10 @@ public class UISettings : ScriptableObject
     [Space]
 
     public float followLerpSpeed = 15;
+
+    [Space] 
+    
+    public Ease squeezeEase;
+    public float squeezeSpeed;
+    [Range(0, 100)] public float squeezePercent;
 }
