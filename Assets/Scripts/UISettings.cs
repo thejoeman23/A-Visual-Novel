@@ -18,6 +18,12 @@ public class UISettings : ScriptableObject
     public float tweenInTime;
     public Ease tweenInEase;
     
+    [Space]
+    
     public float tweenOutTime;
     public Ease tweenOutEase;
+    
+    [Space]
+
+    public float followLerpSpeed = 15;
 }
