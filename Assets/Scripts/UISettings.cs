@@ -32,4 +32,9 @@ public class UISettings : ScriptableObject
     public Ease squeezeEase;
     public float squeezeSpeed;
     [Range(0, 100)] public float squeezePercent;
+
+    [Space] 
+    
+    public float snapSpeed;
+    public Ease snapEase;
 }

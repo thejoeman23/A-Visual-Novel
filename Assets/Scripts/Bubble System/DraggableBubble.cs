@@ -12,6 +12,7 @@ public class DraggableBubble : Button
 
     private RectTransform _rect;
     private Vector3 _originalScale;
+    private Vector2 _originalPosition;
     
     private TextMeshProUGUI _text;
     private bool _dragging;
@@ -28,6 +29,16 @@ public class DraggableBubble : Button
         _canvas = GetComponentInParent<Canvas>();
         
         _originalScale = _rect.localScale;
+        _originalPosition = _rect.anchoredPosition;
+    }
+    
+    public void SetUp(OptionData Data)
+    {
+        data = Data;
+        _text.text = data.text;
+        
+        _originalScale = _rect.localScale;
+        _originalPosition = _rect.anchoredPosition;
     }
 
     public override void OnPointerDown(PointerEventData eventData)
@@ -46,6 +57,7 @@ public class DraggableBubble : Button
         _dragging = false;
         
         Release();
+        SnapTo(_originalPosition);
     }
     
     public void TweenOut()
@@ -57,12 +69,6 @@ public class DraggableBubble : Button
     {
         _rect.localScale = Vector3.zero;
         // Optional: animate in
-    }
-
-    public void SetUp(OptionData Data)
-    {
-        data = Data;
-        _text.text = data.text;
     }
 
     private void Update()
@@ -125,5 +131,13 @@ public class DraggableBubble : Button
         
         s.Append(_rect.DOScale(_originalScale, speed).SetEase(ease));
         s.Play();
+    }
+    
+    private void SnapTo(Vector3 anchoredPosition)
+    {
+        float speed = UIManager.Instance.Settings.snapSpeed;
+        Ease ease = UIManager.Instance.Settings.snapEase;
+
+        _rect.DOAnchorPos(anchoredPosition, speed).SetEase(ease).Play();
     }
 }

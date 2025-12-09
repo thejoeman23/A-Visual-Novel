@@ -19,6 +19,8 @@ MonoBehaviour:
   tweenOutTime: 0
   tweenOutEase: 0
   followLerpSpeed: 25
-  squeezeEase: 4
+  squeezeEase: 1
   squeezeSpeed: 0.1
   squeezePercent: 5
+  snapSpeed: 0.3
+  snapEase: 27
